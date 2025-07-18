@@ -1,0 +1,196 @@
+[2025-07-17 14:24:03] BLE Connect Daemon started. Listening on /tmp/ble_cmd_pipe...
+[2025-07-17 14:24:14] Received connect command for 77:9F:E5:20:E9:15
+[2025-07-17 14:24:19] Stopping scan...
+[2025-07-17 14:24:19] Attempt 1 to connect to 77:9F:E5:20:E9:15...
+Waiting to connect to bluetoothd...[22P[0;94m[bluetooth][0m# connect 77:9F:E5:20:E9:15
+Device 77:9F:E5:20:E9:15 not available
+[0;94m[bluetooth][0m# info 77:9F:E5:20:E9:15
+Device 77:9F:E5:20:E9:15 not available
+DeviceSet 77:9F:E5:20:E9:15 not available
+[0;94m[bluetooth][0m# exit
+[0;94m[bluetooth][0m# [K[2025-07-17 14:24:24] Attempt 2 to connect to 77:9F:E5:20:E9:15...
+Waiting to connect to bluetoothd...[22P[0;94m[bluetooth][0m# connect 77:9F:E5:20:E9:15
+Device 77:9F:E5:20:E9:15 not available
+[0;94m[bluetooth][0m# info 77:9F:E5:20:E9:15
+Device 77:9F:E5:20:E9:15 not available
+DeviceSet 77:9F:E5:20:E9:15 not available
+[0;94m[bluetooth][0m# exit
+[0;94m[bluetooth][0m# [K[2025-07-17 14:24:29] Attempt 3 to connect to 77:9F:E5:20:E9:15...
+Waiting to connect to bluetoothd...[22P[0;94m[bluetooth][0m# connect 77:9F:E5:20:E9:15
+Device 77:9F:E5:20:E9:15 not available
+[0;94m[bluetooth][0m# info 77:9F:E5:20:E9:15
+Device 77:9F:E5:20:E9:15 not available
+DeviceSet 77:9F:E5:20:E9:15 not available
+[0;94m[bluetooth][0m# exit
+[0;94m[bluetooth][0m# [K[2025-07-17 14:24:34] Failed to connect to 77:9F:E5:20:E9:15 after 3 attempts
+[2025-07-17 14:45:41] BLE Connect Daemon started. Listening on /tmp/ble_cmd_pipe...
+[2025-07-17 14:45:47] Received connect command for 77:9F:E5:20:E9:15
+[2025-07-17 14:45:47] Starting scan for 5 seconds...
+[2025-07-17 14:45:53] Stopping scan...
+[2025-07-17 14:45:53] Device 77:9F:E5:20:E9:15 not found during scan. Cannot connect.
+[2025-07-17 14:45:53] Failed to connect to 77:9F:E5:20:E9:15 after 3 attempts
+[2025-07-17 15:29:26] BLE Connect Daemon started. Listening on /tmp/ble_cmd_pipe...
+[2025-07-17 15:29:33] Received connect command for 77:9F:E5:20:E9:15
+[2025-07-17 15:29:33] Starting scan for 5 seconds...
+[2025-07-17 15:29:38] Stopping scan...
+[2025-07-17 15:29:38] Device 77:9F:E5:20:E9:15 not found during scan. Cannot connect.
+[2025-07-17 15:29:39] Failed to connect to 77:9F:E5:20:E9:15 after 3 attempts
+[2025-07-17 15:30:46] BLE Connect Daemon started. Listening on /tmp/ble_cmd_pipe...
+[2025-07-17 15:30:54] Received connect command for 5E:8B:EF:29:6E:71
+[2025-07-17 15:30:54] Starting scan for 5 seconds...
+[2025-07-17 15:30:54] Device 5E:8B:EF:29:6E:71 found in scan
+[2025-07-17 15:30:54] Stopping scan...
+[2025-07-17 15:30:54] Attempt 1 to connect to 5E:8B:EF:29:6E:71...
+Waiting to connect to bluetoothd...[22P[0;94m[bluetooth][0m# connect 5E:8B:EF:29:6E:71
+Attempting to connect to 5E:8B:EF:29:6E:71
+[0;94m[bluetooth][0m# info 5E:8B:EF:29:6E:71
+Device 5E:8B:EF:29:6E:71 (random)
+	Name: k70
+	Alias: k70
+	Paired: no
+	Bonded: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+[0;94m[bluetooth][0m# exit
+[0;94m[bluetooth][0m# [K[2025-07-17 15:30:59] Successfully connected to 5E:8B:EF:29:6E:71
+[2025-07-17 15:47:07] BLE Connect Daemon started. Listening on /tmp/ble_cmd_pipe...
+[2025-07-17 15:47:13] Received connect command for 5E:8B:EF:29:6E:71
+[2025-07-17 15:47:13] Starting scan for 5 seconds...
+[2025-07-17 15:47:18] Stopping scan...
+[2025-07-17 15:47:18] Device 5E:8B:EF:29:6E:71 not found during scan. Cannot connect.
+[2025-07-17 15:47:18] Failed to connect to 5E:8B:EF:29:6E:71 after 3 attempts
+[2025-07-17 15:48:10] BLE Connect Daemon started. Listening on /tmp/ble_cmd_pipe...
+[2025-07-17 15:48:19] Received connect command for 5E:8B:EF:29:6E:71
+[2025-07-17 15:48:19] Starting scan for 15 seconds...
+[2025-07-17 15:48:35] Stopping scan...
+[2025-07-17 15:48:35] Device 5E:8B:EF:29:6E:71 not found during scan. Cannot connect.
+[2025-07-17 15:48:35] Failed to connect to 5E:8B:EF:29:6E:71 after 3 attempts
+[2025-07-18 13:33:24] BLE Connect Daemon started. Listening on /tmp/ble_cmd_pipe...
+[2025-07-18 13:49:23] BLE Connect Daemon started. Listening on /tmp/ble_cmd_pipe...
+[2025-07-18 13:50:09] Received connect command for 7C:1A:00:92:56:AA
+[2025-07-18 13:50:09] Starting scan for 15 seconds...
+[2025-07-18 13:50:10] Device 7C:1A:00:92:56:AA found in scan
+[2025-07-18 13:50:10] Stopping scan...
+[2025-07-18 13:50:10] Attempt 1 to connect to 7C:1A:00:92:56:AA...
+Waiting to connect to bluetoothd...[22P[0;94m[bluetooth][0m# connect 7C:1A:00:92:56:AA
+Attempting to connect to 7C:1A:00:92:56:AA
+[0;94m[bluetooth][0m# info 7C:1A:00:92:56:AA
+Device 7C:1A:00:92:56:AA (random)
+	Name: k70
+	Alias: k70
+	Paired: no
+	Bonded: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+[0;94m[bluetooth][0m# exit
+[0;94m[bluetooth][0m# [K[2025-07-18 13:50:16] Successfully connected to 7C:1A:00:92:56:AA
+[2025-07-18 14:00:06] BLE Connect Daemon started. Listening on /tmp/ble_cmd_pipe...
+[2025-07-18 14:00:15] Received connect command for 7C:1A:00:92:56:AA
+[2025-07-18 14:00:15] Starting scan for 15 seconds...
+[2025-07-18 14:00:15] Device 7C:1A:00:92:56:AA found in scan
+[2025-07-18 14:00:15] Stopping scan...
+[2025-07-18 14:00:15] Attempt 1 to connect to 7C:1A:00:92:56:AA...
+Waiting to connect to bluetoothd...[22P[0;94m[bluetooth][0m# [0;94m[k70][0m# [K[K[[0;93mCHG[0m] Device 4C:56:3E:AB:6B:30 RSSI is nil
+[0;94m[k70][0m# [K[[0;93mCHG[0m] Device 48:B9:2E:34:E4:AE RSSI is nil
+[0;94m[k70][0m# [K[[0;93mCHG[0m] Device 7C:1A:00:92:56:AA RSSI is nil
+[0;94m[k70][0m# [K[[0;93mCHG[0m] Device 4D:5D:F4:3A:5B:BD RSSI is nil
+[0;94m[k70][0m# [K[[0;93mCHG[0m] Controller E8:8D:A6:F3:93:F6 Discovering: no
+[0;94m[k70][0m# [Khci0 type 7 discovering off
+[0;94m[k70][0m# connect 7C:1A:00:92:56:AA
+Attempting to connect to 7C:1A:00:92:56:AA
+[0;94m[k70][0m# info 7C:1A:00:92:56:AA
+Device 7C:1A:00:92:56:AA (random)
+	Name: k70
+	Alias: k70
+	Paired: no
+	Bonded: no
+	Trusted: no
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Media Control     (00001849-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Telephony Bearer  (0000184c-0000-1000-8000-00805f9b34fb)
+	UUID: Telephony and Media Audio (00001855-0000-1000-8000-00805f9b34fb)
+	UUID: Unknown                   (0000fcc0-0000-1000-8000-00805f9b34fb)
+	UUID: Xiaomi Inc.               (0000fdaa-0000-1000-8000-00805f9b34fb)
+[0;94m[k70][0m# exit
+[0;94m[k70][0m# [K[2025-07-18 14:00:20] Attempt 2 to connect to 7C:1A:00:92:56:AA...
+Waiting to connect to bluetoothd...[22P[0;94m[bluetooth][0m# connect 7C:1A:00:92:56:AA
+Device 7C:1A:00:92:56:AA not available
+[0;94m[bluetooth][0m# info 7C:1A:00:92:56:AA
+Device 7C:1A:00:92:56:AA not available
+DeviceSet 7C:1A:00:92:56:AA not available
+[0;94m[bluetooth][0m# exit
+[0;94m[bluetooth][0m# [K[2025-07-18 14:00:25] Attempt 3 to connect to 7C:1A:00:92:56:AA...
+Waiting to connect to bluetoothd...[22P[0;94m[bluetooth][0m# connect 7C:1A:00:92:56:AA
+Device 7C:1A:00:92:56:AA not available
+[0;94m[bluetooth][0m# info 7C:1A:00:92:56:AA
+Device 7C:1A:00:92:56:AA not available
+DeviceSet 7C:1A:00:92:56:AA not available
+[0;94m[bluetooth][0m# exit
+[0;94m[bluetooth][0m# [K[2025-07-18 14:00:30] Failed to connect to 7C:1A:00:92:56:AA after 3 attempts
+[2025-07-18 14:03:13] Received connect command for 7C:1A:00:92:56:AA
+[2025-07-18 14:03:13] Starting scan for 15 seconds...
+[2025-07-18 14:03:14] Device 7C:1A:00:92:56:AA found in scan
+[2025-07-18 14:03:14] Stopping scan...
+[2025-07-18 14:03:14] Attempt 1 to connect to 7C:1A:00:92:56:AA...
+Waiting to connect to bluetoothd...[22P[0;94m[bluetooth][0m# connect 7C:1A:00:92:56:AA
+Attempting to connect to 7C:1A:00:92:56:AA
+[0;94m[bluetooth][0m# info 7C:1A:00:92:56:AA
+Device 7C:1A:00:92:56:AA (random)
+	Name: k70
+	Alias: k70
+	Paired: no
+	Bonded: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+[0;94m[bluetooth][0m# exit
+[0;94m[bluetooth][0m# [K[2025-07-18 14:03:19] Successfully connected to 7C:1A:00:92:56:AA
+[2025-07-18 14:03:42] Received connect command for 7C:1A:00:92:56:AA
+[2025-07-18 14:03:42] Already connected to 7C:1A:00:92:56:AA. Skipping connection.
+[2025-07-18 14:05:29] Received connect command for 7C:1A:00:92:56:AA
+[2025-07-18 14:05:30] Already connected to 7C:1A:00:92:56:AA. Skipping connection.
+[2025-07-18 14:05:54] Received connect command for 7C:1A:00:92:56:AA
+[2025-07-18 14:05:54] Previously connected to 7C:1A:00:92:56:AA but now disconnected. Reconnecting...
+[2025-07-18 14:05:54] Starting scan for 15 seconds...
+[2025-07-18 14:05:54] Device 7C:1A:00:92:56:AA found in scan
+[2025-07-18 14:05:54] Stopping scan...
+[2025-07-18 14:05:54] Attempt 1 to connect to 7C:1A:00:92:56:AA...
+Waiting to connect to bluetoothd...[22P[0;94m[bluetooth][0m# [K[[0;93mCHG[0m] Device 7C:0B:84:F1:0F:F3 RSSI is nil
+[0;94m[bluetooth][0m# [K[[0;93mCHG[0m] Device 4C:56:3E:AB:6B:30 RSSI is nil
+[0;94m[bluetooth][0m# [K[[0;93mCHG[0m] Device 4D:5D:F4:3A:5B:BD RSSI is nil
+[0;94m[bluetooth][0m# [K[[0;93mCHG[0m] Device 76:28:07:81:4B:26 TxPower is nil
+[0;94m[bluetooth][0m# [K[[0;93mCHG[0m] Device 76:28:07:81:4B:26 RSSI is nil
+[0;94m[bluetooth][0m# [K[[0;93mCHG[0m] Controller E8:8D:A6:F3:93:F6 Discovering: no
+[0;94m[bluetooth][0m# [Khci0 type 7 discovering off
+[0;94m[bluetooth][0m# connect 7C:1A:00:92:56:AA
+Attempting to connect to 7C:1A:00:92:56:AA
+[0;94m[bluetooth][0m# info 7C:1A:00:92:56:AA
+Device 7C:1A:00:92:56:AA (random)
+	Name: k70
+	Alias: k70
+	Paired: no
+	Bonded: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Media Control     (00001849-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Telephony Bearer  (0000184c-0000-1000-8000-00805f9b34fb)
+	UUID: Telephony and Media Audio (00001855-0000-1000-8000-00805f9b34fb)
+	UUID: Unknown                   (0000fcc0-0000-1000-8000-00805f9b34fb)
+	UUID: Xiaomi Inc.               (0000fdaa-0000-1000-8000-00805f9b34fb)
+[0;94m[bluetooth][0m# exit
+[0;94m[bluetooth][0m# [K[2025-07-18 14:05:59] Successfully connected to 7C:1A:00:92:56:AA
+[2025-07-18 14:07:46] Received connect command for 7C:1A:00:92:56:AA
+[2025-07-18 14:07:46] Already connected to 7C:1A:00:92:56:AA. Skipping connection.
