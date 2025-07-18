@@ -27,17 +27,24 @@ while true; do
         if [[ "$action" == "connect" && "$mac" =~ ([A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2} ]]; then
             log "Received connect command for $mac"
 
-            # Skip connection if already connected to the same MAC
-            if [ "$CURRENT_CONNECTED_MAC" == "$mac" ]; then
-                IS_STILL_CONNECTED=$(bluetoothctl info "$mac" | grep "Connected: yes")
-                if [ -n "$IS_STILL_CONNECTED" ]; then
-                    log "Already connected to $mac. Skipping connection."
+            # A more efficient way to check if you are connected to any device
+            #CONNECTED_INFO=$(bluetoothctl info | grep -A1 "Device")
+            CONNECTED_INFO=$(bluetoothctl info)
+            CONNECTED_INFO=$(bluetoothctl info)
+
+            if [ -n "$CONNECTED_INFO" ] && echo "$CONNECTED_INFO" | grep -q "Connected: yes"; then
+                CONNECTED_DEVICE=$(echo "$CONNECTED_INFO" | grep "^Device" | awk '{print $2}')
+                DEVICE_NAME=$(echo "$CONNECTED_INFO" | grep "^.*Name:" | cut -d ":" -f2- | xargs)
+
+                if [ "$CONNECTED_DEVICE" != "$mac" ]; then
+                    log "Already connected to device: $CONNECTED_DEVICE ($DEVICE_NAME). Skipping connection request for $mac."
                     continue
                 else
-                    log "Previously connected to $mac but now disconnected. Reconnecting..."
-                    CURRENT_CONNECTED_MAC=""
+                    log "Already connected to requested device $mac. No action needed."
+                    continue
                 fi
             fi
+
 
             # Start scan and wait for device to be discovered
             log "Starting scan for $SCAN_DURATION seconds..."
@@ -86,4 +93,3 @@ while true; do
         fi
     fi
 done
-
