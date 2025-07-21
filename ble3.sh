@@ -30,7 +30,6 @@ while true; do
             # A more efficient way to check if you are connected to any device
             #CONNECTED_INFO=$(bluetoothctl info | grep -A1 "Device")
             CONNECTED_INFO=$(bluetoothctl info)
-            CONNECTED_INFO=$(bluetoothctl info)
 
             if [ -n "$CONNECTED_INFO" ] && echo "$CONNECTED_INFO" | grep -q "Connected: yes"; then
                 CONNECTED_DEVICE=$(echo "$CONNECTED_INFO" | grep "^Device" | awk '{print $2}')
