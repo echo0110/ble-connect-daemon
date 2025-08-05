@@ -1,6 +1,4 @@
-Here's a well-structured and clear README for your GitHub repository.
 
------
 
 # BLE Connect Daemon
 
