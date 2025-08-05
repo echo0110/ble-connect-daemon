@@ -52,7 +52,7 @@ You can customize the script's behavior by modifying the following variables at 
 To start the daemon, simply run the script in the background:
 
 ```bash
-/path/to/your/ble_connect.sh &
+/path/to/your/ble3.sh &
 ```
 
 This will start the script and detach it from your current terminal session. The script will create the FIFO and start listening for commands.
